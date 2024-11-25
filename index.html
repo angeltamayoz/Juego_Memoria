@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memoria</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center my-3 text-dark">Juego de MEMORIA</h1>
+            </div>
+            <div class="col-12">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link">JUGADOR: <span class="jugador">PLAYER 1</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Aciertos: <span class="aciertos">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Intentos: <span class="intentos">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">TIEMPO DE JUEGO: <span class="tiempo">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">NIVEL: <span class="nivel">0</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-dark btn-iniciar">INICIAR</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <h1 class="text-white text-center">TABLERO</h1>
+                        <hr>
+                        <div class="tablero row">
+                            <!-- Imágenes -->
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <table class="table my-3 tablaRec">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>JUGADOR</th>
+                                    <th>TIEMPO</th>
+                                    <th>INTENTOS</th>
+                                    <th>TIEMPO SOBRANTE</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">REGISTRO</h1>
+                    <button type="button" class="btn-close cerrar" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Nombre Jugador:</label>
+                            <input type="text" class="form-control nombre" id="recipient-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary cerrar" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary registrar">Registrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/guardardatos.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

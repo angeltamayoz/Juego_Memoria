@@ -1,0 +1,22 @@
+.altura {
+    height: 100px;
+    border-radius: 15px;
+}
+
+.tablero div img:hover{
+    transform: scale(1.2);
+}
+
+.fondo1, .fondo2, .fondo3 {
+    background-image: url("../imagenes/fondo3.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.fondo2 {
+    background-image: url("../imagenes/fondo.jpg");
+}
+
+.fondo3 {
+    background-image: url("../imagenes/fondo2.jpg");
+}
