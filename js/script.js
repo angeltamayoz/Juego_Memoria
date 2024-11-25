@@ -3,199 +3,199 @@ const d = document;
 let imgN1 = [
     {
         nombre: "Real Madrid",
-        url: "../imagenes/madrid.png",
+        url: "./imagenes/madrid.png",
     },
     {
         nombre: "Barcelona",
-        url: "../imagenes/barca.png",
+        url: "./imagenes/barca.png",
     },
     {
         nombre: "Bayern Munich",
-        url: "../imagenes/bayern.png",
+        url: "./imagenes/bayern.png",
     },
     {
         nombre: "dortmund",
-        url: "../imagenes/dortmund.png",
+        url: "./imagenes/dortmund.png",
     },
     {
         nombre: "Man. City",
-        url: "../imagenes/city.jpeg",
+        url: "./imagenes/city.jpeg",
     },
     {
         nombre: "Man. United",
-        url: "../imagenes/united.png",
+        url: "./imagenes/united.png",
     },
     {
         nombre: "Real Madrid",
-        url: "../imagenes/madrid.png",
+        url: "./imagenes/madrid.png",
     },
     {
         nombre: "Barcelona",
-        url: "../imagenes/barca.png",
+        url: "./imagenes/barca.png",
     },
     {
         nombre: "Bayern Munich",
-        url: "../imagenes/bayern.png",
+        url: "./imagenes/bayern.png",
     },
     {
         nombre: "dortmund",
-        url: "../imagenes/dortmund.png",
+        url: "./imagenes/dortmund.png",
     },
     {
         nombre: "Man. City",
-        url: "../imagenes/city.jpeg",
+        url: "./imagenes/city.jpeg",
     },
     {
         nombre: "Man. United",
-        url: "../imagenes/united.png",
+        url: "./imagenes/united.png",
     }
 ];
 let imgN2 = [
     {
         nombre: "Real Madrid",
-        url: "../imagenes/madrid.png",
+        url: "./imagenes/madrid.png",
     },
     {
         nombre: "Barcelona",
-        url: "../imagenes/barca.png",
+        url: "./imagenes/barca.png",
     },
     {
         nombre: "Bayern Munich",
-        url: "../imagenes/bayern.png",
+        url: "./imagenes/bayern.png",
     },
     {
         nombre: "dortmund",
-        url: "../imagenes/dortmund.png",
+        url: "./imagenes/dortmund.png",
     },
     {
         nombre: "Man. City",
-        url: "../imagenes/city.jpeg",
+        url: "./imagenes/city.jpeg",
     },
     {
         nombre: "Man. United",
-        url: "../imagenes/united.png",
+        url: "./imagenes/united.png",
     },
     {
         nombre: "Real Madrid",
-        url: "../imagenes/madrid.png",
+        url: "./imagenes/madrid.png",
     },
     {
         nombre: "Barcelona",
-        url: "../imagenes/barca.png",
+        url: "./imagenes/barca.png",
     },
     {
         nombre: "Bayern Munich",
-        url: "../imagenes/bayern.png",
+        url: "./imagenes/bayern.png",
     },
     {
         nombre: "dortmund",
-        url: "../imagenes/dortmund.png",
+        url: "./imagenes/dortmund.png",
     },
     {
         nombre: "Man. City",
-        url: "../imagenes/city.jpeg",
+        url: "./imagenes/city.jpeg",
     },
     {
         nombre: "Man. United",
-        url: "../imagenes/united.png",
+        url: "./imagenes/united.png",
     },
     {
         nombre: "Liverpool",
-        url: "../imagenes/liverpool.jpg",
+        url: "./imagenes/liverpool.jpg",
     },
     {
         nombre: "Liverpool",
-        url: "../imagenes/liverpool.jpg",
+        url: "./imagenes/liverpool.jpg",
     },
     {
         nombre: "PSG",
-        url: "../imagenes/psg.png",
+        url: "./imagenes/psg.png",
     },
     {
         nombre: "PSG",
-        url: "../imagenes/psg.png",
+        url: "./imagenes/psg.png",
     }
 ];
 let imgN3 = [
     {
         nombre: "Real Madrid",
-        url: "../imagenes/madrid.png",
+        url: "./imagenes/madrid.png",
     },
     {
         nombre: "Barcelona",
-        url: "../imagenes/barca.png",
+        url: "./imagenes/barca.png",
     },
     {
         nombre: "Bayern Munich",
-        url: "../imagenes/bayern.png",
+        url: "./imagenes/bayern.png",
     },
     {
         nombre: "dortmund",
-        url: "../imagenes/dortmund.png",
+        url: "./imagenes/dortmund.png",
     },
     {
         nombre: "Man. City",
-        url: "../imagenes/city.jpeg",
+        url: "./imagenes/city.jpeg",
     },
     {
         nombre: "Man. United",
-        url: "../imagenes/united.png",
+        url: "./imagenes/united.png",
     },
     {
         nombre: "Real Madrid",
-        url: "../imagenes/madrid.png",
+        url: "./imagenes/madrid.png",
     },
     {
         nombre: "Barcelona",
-        url: "../imagenes/barca.png",
+        url: "./imagenes/barca.png",
     },
     {
         nombre: "Bayern Munich",
-        url: "../imagenes/bayern.png",
+        url: "./imagenes/bayern.png",
     },
     {
         nombre: "dortmund",
-        url: "../imagenes/dortmund.png",
+        url: "./imagenes/dortmund.png",
     },
     {
         nombre: "Man. City",
-        url: "../imagenes/city.jpeg",
+        url: "./imagenes/city.jpeg",
     },
     {
         nombre: "Man. United",
-        url: "../imagenes/united.png",
+        url: "./imagenes/united.png",
     },
     {
         nombre: "Liverpool",
-        url: "../imagenes/liverpool.jpg",
+        url: "./imagenes/liverpool.jpg",
     },
     {
         nombre: "Liverpool",
-        url: "../imagenes/liverpool.jpg",
+        url: "./imagenes/liverpool.jpg",
     },
     {
         nombre: "PSG",
-        url: "../imagenes/psg.png",
+        url: "./imagenes/psg.png",
     },
     {
         nombre: "PSG",
-        url: "../imagenes/psg.png",
+        url: "./imagenes/psg.png",
     },
     {
         nombre: "Young Boys",
-        url: "../imagenes/young.png",
+        url: "./imagenes/young.png",
     },
     {
         nombre: "Aston Villa",
-        url: "../imagenes/villa.png",
+        url: "./imagenes/villa.png",
     },
     {
         nombre: "Young Boys",
-        url: "../imagenes/young.png",
+        url: "./imagenes/young.png",
     },
     {
         nombre: "Aston Villa",
-        url: "../imagenes/villa.png",
+        url: "./imagenes/villa.png",
     }
 ];
 
@@ -218,12 +218,12 @@ let tiempoTranscurrido;
 let btn_iniciar = d.querySelector(".btn-iniciar");
 let imagenNivel;
 let estoyJugando = false;
-let sonidoSeleccionar = new Audio("../sonidos/retro-select-236670.mp3");
-let sonidoCorrecto = new Audio("../sonidos/correct-choice-43861.mp3");
-let sonidoMal = new Audio("../sonidos/wrong-47985.mp3");
-let sonidoFondo = new Audio("../sonidos/background-music-224633.mp3");
-let sonidoPerder = new Audio("../sonidos/violin-lose-1-175615.mp3");
-let sonidoGanar = new Audio("../sonidos/you-win-sequence-2-183949.mp3");
+let sonidoSeleccionar = new Audio("./sonidos/retro-select-236670.mp3");
+let sonidoCorrecto = new Audio("./sonidos/correct-choice-43861.mp3");
+let sonidoMal = new Audio("./sonidos/wrong-47985.mp3");
+let sonidoFondo = new Audio("./sonidos/background-music-224633.mp3");
+let sonidoPerder = new Audio("./sonidos/violin-lose-1-175615.mp3");
+let sonidoGanar = new Audio("./sonidos/you-win-sequence-2-183949.mp3");
 let fondoBody = d.querySelector("body")
 let tabla = d.querySelector(".tablaRec tbody");
 
@@ -263,7 +263,7 @@ function agrearImagenes() {
         div.className = "col-3 my-2";
         let imagen = d.createElement("img");
         // imgagen.src = imgN1[i].url;
-        imagen.src = "../imagenes/ocultar.jpg";
+        imagen.src = "./imagenes/ocultar.jpg";
         imagen.className = "img-fluid";
         imagen.id = i;
         imagen.addEventListener("click", mostrarImagen);
@@ -293,8 +293,8 @@ function compararImagen() {
     if (nombreImg[0] == nombreImg[1]) {
         if (idImg[0] != idImg[1]) {
             sonidoCorrecto.play();
-            allImg[idImg[0]].src = "../imagenes/ok.png";
-            allImg[idImg[1]].src = "../imagenes/ok.png";
+            allImg[idImg[0]].src = "./imagenes/ok.png";
+            allImg[idImg[1]].src = "./imagenes/ok.png";
 
             allImg[idImg[0]].removeEventListener("click", mostrarImagen);
             allImg[idImg[1]].removeEventListener("click", mostrarImagen);
@@ -304,15 +304,15 @@ function compararImagen() {
         } else {
             sonidoMal.play();
             alert("Debes escoger otra imagen");
-            allImg[idImg[0]].src = "../imagenes/ocultar.jpg";
+            allImg[idImg[0]].src = "./imagenes/ocultar.jpg";
 
             intentos++;
             mostrarIntentos.textContent = intentos;
         }
     } else {
         sonidoMal.play();
-        allImg[idImg[0]].src = "../imagenes/ocultar.jpg";
-        allImg[idImg[1]].src = "../imagenes/ocultar.jpg";
+        allImg[idImg[0]].src = "./imagenes/ocultar.jpg";
+        allImg[idImg[1]].src = "./imagenes/ocultar.jpg";
 
         intentos++;
         mostrarIntentos.textContent = intentos;
